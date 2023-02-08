@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menu_espais",
+  "info": {
+    "singularName": "menu-espai",
+    "pluralName": "menu-espais",
+    "displayName": "Menu Espai",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "categoria": {
+      "type": "enumeration",
+      "enum": [
+        "primers",
+        "segons"
+      ]
+    }
+  }
+}
