@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vins",
+  "info": {
+    "singularName": "vin",
+    "pluralName": "vins",
+    "displayName": "Vins"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "price": {
+      "type": "decimal",
+      "required": true
+    },
+    "categoria": {
+      "type": "enumeration",
+      "enum": [
+        "blanc",
+        "negre",
+        "rosat"
+      ]
+    }
+  }
+}
