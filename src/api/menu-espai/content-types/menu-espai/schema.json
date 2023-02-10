@@ -40,6 +40,9 @@
         "altramuce",
         "molusco"
       ]
+    },
+    "hola": {
+      "type": "json"
     }
   }
 }
