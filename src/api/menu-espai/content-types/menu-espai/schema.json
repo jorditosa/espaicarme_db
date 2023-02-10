@@ -21,6 +21,25 @@
         "primers",
         "segons"
       ]
+    },
+    "alergens": {
+      "type": "enumeration",
+      "enum": [
+        "gluten",
+        "crustaceo",
+        "huevo",
+        "pescado",
+        "cacahuete",
+        "soja",
+        "lacteo",
+        "cascara",
+        "apio",
+        "mostaza",
+        "sesamo",
+        "sulfito",
+        "altramuce",
+        "molusco"
+      ]
     }
   }
 }
