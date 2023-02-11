@@ -10,17 +10,31 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "categoria": {
       "type": "enumeration",
       "enum": [
         "primers",
         "segons"
-      ]
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "alergens": {
       "type": "enumeration",
@@ -39,10 +53,12 @@
         "sulfito",
         "altramuce",
         "molusco"
-      ]
-    },
-    "hola": {
-      "type": "json"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
