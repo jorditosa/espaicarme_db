@@ -4,7 +4,7 @@
   "info": {
     "singularName": "menu-lab",
     "pluralName": "menu-labs",
-    "displayName": "Menu Laborable",
+    "displayName": "Menu-Laborable",
     "description": ""
   },
   "options": {
@@ -17,34 +17,30 @@
   },
   "attributes": {
     "title": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
       "type": "string",
       "required": true,
-      "unique": true
-    },
-    "categoria": {
+      "unique": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
+      }
+    },
+    "categoria": {
       "type": "enumeration",
       "enum": [
         "primers",
-        "segons"
+        "segons",
+        "postres"
       ],
-      "required": true
-    },
-    "alergens": {
+      "required": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
+      }
+    },
+    "alergens": {
       "type": "enumeration",
       "enum": [
         "gluten",
@@ -61,7 +57,12 @@
         "sulfito",
         "altramuce",
         "molusco"
-      ]
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
