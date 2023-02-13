@@ -26,15 +26,6 @@
       "required": true,
       "unique": true
     },
-    "price": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "decimal",
-      "required": true
-    },
     "categoria": {
       "pluginOptions": {
         "i18n": {
@@ -45,6 +36,31 @@
       "enum": [
         "primers",
         "segons"
+      ],
+      "required": true
+    },
+    "alergens": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "gluten",
+        "crustaceo",
+        "huevo",
+        "pescado",
+        "cacahuete",
+        "soja",
+        "lacteo",
+        "cascara",
+        "apio",
+        "mostaza",
+        "sesamo",
+        "sulfito",
+        "altramuce",
+        "molusco"
       ]
     }
   }
