@@ -4,7 +4,8 @@
   "info": {
     "singularName": "vin",
     "pluralName": "vins",
-    "displayName": "Vins"
+    "displayName": "Vins",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,7 +15,7 @@
     "title": {
       "type": "string",
       "required": true,
-      "unique": true
+      "unique": false
     },
     "price": {
       "type": "decimal",
@@ -25,8 +26,15 @@
       "enum": [
         "blanc",
         "negre",
-        "rosat"
+        "rosat",
+        "cava"
       ]
+    },
+    "description": {
+      "type": "string"
+    },
+    "do": {
+      "type": "string"
     }
   }
 }
