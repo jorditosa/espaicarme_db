@@ -27,7 +27,9 @@
         "blanc",
         "negre",
         "rosat",
-        "cava"
+        "cava",
+        "sangria",
+        "lambrusco"
       ]
     },
     "description": {
