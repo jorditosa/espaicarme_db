@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "detalls_mespais",
+  "info": {
+    "singularName": "detalls-mespai",
+    "pluralName": "detalls-mespais",
+    "displayName": "Detalls-mespai"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "string",
+      "required": false
+    },
+    "price": {
+      "type": "decimal",
+      "required": true
+    }
+  }
+}
