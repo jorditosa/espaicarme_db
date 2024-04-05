@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "espaidetalls",
+  "info": {
+    "singularName": "espaidetall",
+    "pluralName": "espaidetalls",
+    "displayName": "Espaidetall"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "price": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "decimal",
+      "required": true
+    },
+    "description": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    }
+  }
+}
