@@ -96,6 +96,14 @@
       },
       "type": "string",
       "default": "admin"
+    },
+    "order_delivery": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "datetime"
     }
   }
 }
