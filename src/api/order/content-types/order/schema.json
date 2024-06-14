@@ -4,7 +4,8 @@
   "info": {
     "singularName": "order",
     "pluralName": "orders",
-    "displayName": "Orders"
+    "displayName": "Orders",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,7 +23,8 @@
         }
       },
       "type": "datetime",
-      "required": true
+      "required": true,
+      "unique": true
     },
     "total_price": {
       "pluginOptions": {
@@ -85,6 +87,15 @@
         }
       },
       "type": "string"
+    },
+    "owner": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "admin"
     }
   }
 }
