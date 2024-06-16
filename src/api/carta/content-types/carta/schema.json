@@ -83,11 +83,10 @@
       "relation": "oneToMany",
       "target": "api::alergen.alergen"
     },
-    "category": {
+    "categories": {
       "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::category.category",
-      "inversedBy": "carta"
+      "relation": "oneToMany",
+      "target": "api::category.category"
     }
   }
 }
