@@ -23,6 +23,12 @@
       },
       "type": "string",
       "required": true
+    },
+    "carta": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::carta.carta",
+      "mappedBy": "category"
     }
   }
 }
